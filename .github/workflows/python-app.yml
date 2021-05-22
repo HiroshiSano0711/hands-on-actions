@@ -10,6 +10,7 @@ jobs:
   build:
     # CIを使うベースのOSを指定します。
     runs-on: ubuntu-latest
+
     # job全体のタイムアウト時間
     timeout-minutes: 10
     # チャレンジ問題用なので、挑戦される方はコメントを外して使ってください。
